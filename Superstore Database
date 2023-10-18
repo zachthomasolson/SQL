@@ -34,7 +34,7 @@ FROM superstore;
 
 SELECT MAX(price)
 FROM superstore
-WHERE category='Kitchen Supplies';
+WHERE category="Kitchen Supplies";
 
 SELECT item_name, average_rating
 FROM superstore
